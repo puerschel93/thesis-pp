@@ -8,3 +8,9 @@
 	font-weight: 400;
 	text-align: justify;
 }
+
+@media screen and (max-width: 768px) {
+	.abstract__container > * {
+		text-align: left;
+	}
+}

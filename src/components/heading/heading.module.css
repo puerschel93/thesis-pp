@@ -31,12 +31,14 @@
 	position: relative;
 }
 
-.lead__main::after {
-	position: absolute;
-	content: '';
-	top: calc(100% + 1rem);
-	width: 70%;
-	height: 0.75rem;
-	right: 15%;
-	background-color: var(--color-primary);
+@media screen and (max-width: 768px) {
+	.heading__container {
+		min-width: 90vw;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.heading__container {
+		min-width: 75vw;
+	}
 }

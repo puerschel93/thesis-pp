@@ -29,3 +29,34 @@
 	font-weight: 400;
 	text-align: justify;
 }
+
+.result__percentage--embedded {
+	display: none;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+	.result__percentage {
+		display: none;
+	}
+
+	.result__percentage--embedded {
+		display: flex;
+		align-items: baseline;
+		margin-bottom: 1rem;
+		color: var(--color-gray-800);
+	}
+
+	.result__percentage--embedded h1 {
+		color: black;
+	}
+
+	.result__content {
+		grid-column-start: 1;
+		grid-column-end: 3;
+		text-align: left;
+	}
+}

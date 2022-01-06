@@ -28,3 +28,9 @@
 	opacity: 0;
 	filter: blur(2px);
 }
+
+@media screen and (max-width: 768px) {
+	.colorswitch__container {
+		display: none;
+	}
+}
