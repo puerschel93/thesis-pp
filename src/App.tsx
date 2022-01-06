@@ -9,7 +9,7 @@ import Styles from 'utils/styles';
 const App = () => {
 	return (
 		<Styles>
-			<Title title="Bachelorarbeit - CSS" />
+			<Title title="Bachelorarbeit - CSS Version" />
 			<Main />
 		</Styles>
 	);
