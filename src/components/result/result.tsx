@@ -41,9 +41,16 @@ export const Result = (props: ResultProps) => {
 		>
 			<ResultHeading title={section} />
 			<ResultHeader />
-			<p className={styles['result__percentage']}>{data.frequence}%</p>
+			<p className={styles['result__percentage']}>
+				{data.frequence}
+				{typeof data.frequence !== 'string' && '%'}
+			</p>
 			<p className={styles['result__percentage--embedded']}>
-				Häufigkeit <h1>{data.frequence}%</h1>
+				Häufigkeit{' '}
+				<h1>
+					{data.frequence}
+					{typeof data.frequence !== 'string' && '%'}
+				</h1>
 			</p>
 			<p className={styles['result__content']}>{data.content}</p>
 		</div>
