@@ -1,6 +1,11 @@
 import Main from 'components/main';
 import Title from 'components/title';
+import { content } from 'data/content';
+import { createContext } from 'react';
 import Styles from 'utils/styles';
+
+/** Context */
+export const DataContext = createContext(content);
 
 /**
  * Main root component for the demonstration app.
@@ -8,10 +13,12 @@ import Styles from 'utils/styles';
  */
 const App = () => {
 	return (
-		<Styles>
-			<Title title="Bachelorarbeit - CSS Version" />
-			<Main />
-		</Styles>
+		<DataContext.Provider value={content}>
+			<Styles>
+				<Title title="Bachelorarbeit - CSS Version" />
+				<Main />
+			</Styles>
+		</DataContext.Provider>
 	);
 };
 
