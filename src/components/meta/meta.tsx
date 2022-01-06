@@ -10,19 +10,19 @@ export const Meta = () => {
 				</span>
 				Diese Webseite wurde ausschließlich zu Demonstrationszwecken implementiert um die
 				Einbindungsmöglichkeiten von{' '}
-				<a href="" target="_blank">
+				<a href="https://www.w3.org/Style/CSS/Overview.de.html" target="_blank" rel="noreferrer">
 					CSS
 				</a>{' '}
 				und CSS-Präprozessoren wie{' '}
-				<a href="" target="_blank">
+				<a href="https://sass-lang.com/" target="_blank" rel="noreferrer">
 					Sass
 				</a>
 				,{' '}
-				<a href="" target="_blank">
+				<a href="https://lesscss.org/" target="_blank" rel="noreferrer">
 					Less
 				</a>{' '}
 				und{' '}
-				<a href="" target="_blank">
+				<a href="https://stylus-lang.com/" target="_blank" rel="noreferrer">
 					Stylus
 				</a>{' '}
 				in responsiven Single Page Applications zu demonstrieren. Die auf dieser Webseite dargestellten
