@@ -1,4 +1,4 @@
-import styles from './result-header.module.css';
+import styles from './result-header.module.scss';
 
 export const ResultHeader = () => {
 	return (

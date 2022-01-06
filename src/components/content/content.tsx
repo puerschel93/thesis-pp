@@ -5,7 +5,7 @@ import Meta from 'components/meta';
 import Result from 'components/result';
 import { Section } from 'enums/sections';
 import { useContext } from 'react';
-import styles from './content.module.css';
+import styles from './content.module.scss';
 
 export const Content = () => {
 	/** Context */

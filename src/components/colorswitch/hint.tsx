@@ -1,7 +1,7 @@
 import hint from 'assets/changecolor.svg';
 import { useHide } from 'hooks/use-hide';
 import { ReactSVG } from 'react-svg';
-import styles from './color-switch.module.css';
+import styles from './color-switch.module.scss';
 
 export const Hint = () => {
 	/** Hooks */

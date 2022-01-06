@@ -1,0 +1,40 @@
+/** Fonts **/
+$font-size-small: 0.8rem;
+$font-size-medium: 1.5rem;
+$font-size-large: 2.5rem;
+
+/** Fonts Misc */
+$font-line-height-large: 1.66em;
+$font-line-height-medium: 0.88em;
+
+/** Spacing **/
+$spacing-small: 0.5rem;
+$spacing-medium: 1rem;
+$spacing-large: 1.5rem;
+$spacing-huge: 3rem;
+
+/** Colors **/
+
+$color-primary-default: #480ca8;
+$color-primary: $color-primary-default;
+
+$color-gray-100: #fafafa;
+$color-gray-200: #f5f5f5;
+$color-gray-300: #ebebeb;
+$color-gray-400: #f5f5f5;
+$color-gray-500: #ebebeb;
+$color-gray-600: #d1d1d1;
+$color-gray-700: #b3b3b3;
+$color-gray-800: #8c8c8c;
+$color-gray-900: #4d4d4d;
+
+/** Grid **/
+$result-columns: 1fr 6fr;
+
+@media screen and (max-width: 768px) {
+	:root {
+		$font-size-small: 0.8rem;
+		$font-size-medium: 1.2rem;
+		$font-size-large: 1.6rem;
+	}
+}

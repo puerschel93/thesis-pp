@@ -1,16 +1,18 @@
+@import 'styles/_variables.scss';
+
 .result__header {
 	display: grid;
 	grid-column-start: 1;
 	grid-column-end: 3;
-	grid-column-gap: var(--spacing-huge);
-	grid-template-columns: var(--result-columns);
+	grid-column-gap: $spacing-huge;
+	grid-template-columns: $result-columns;
 	min-height: 2rem;
 	line-height: 100%;
 }
 
 .result__header > * {
-	font-size: var(--font-size-small);
-	color: var(--color-gray-800);
+	font-size: $font-size-small;
+	color: $color-gray-800;
 }
 
 @media screen and (max-width: 768px) {

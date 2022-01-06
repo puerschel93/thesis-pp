@@ -1,5 +1,5 @@
 import { IoWarning } from 'react-icons/io5';
-import styles from './meta.module.css';
+import styles from './meta.module.scss';
 
 export const Meta = () => {
 	return (
@@ -28,8 +28,8 @@ export const Meta = () => {
 				in responsiven Single Page Applications zu demonstrieren. Die auf dieser Webseite dargestellten
 				Ergebnisse wurden aus der Bachelorarbeit entnommen, stellen jedoch <strong>keinen</strong>{' '}
 				eigenständigen Inhalt der Bachelorarbeit dar, weshalb keine Garantie, trotz bester Bemühungen, für die
-				Richtigkeit der in auf dieser Seite ersichtlichen Werte gegeben wird. Die vollständige Bachelorarbeit
-				kann bei Bedarf am Seitenende heruntergeladen werden.
+				Richtigkeit der auf dieser Seite ersichtlichen Werte gegeben wird. Die vollständige Bachelorarbeit kann
+				bei Bedarf am Seitenende heruntergeladen werden.
 			</p>
 		</div>
 	);

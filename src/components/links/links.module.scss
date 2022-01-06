@@ -1,13 +1,15 @@
+@import 'styles/_variables.scss';
+
 .links__container {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding-left: var(--spacing-large);
-	padding-right: var(--spacing-large);
+	padding-left: $spacing-large;
+	padding-right: $spacing-large;
 	position: fixed;
 	left: 0;
 	width: 100vw;
-	top: calc(var(--spacing-large) + 1rem);
+	top: calc(#{$spacing-large} + 1rem);
 	align-items: center;
 	box-sizing: border-box;
 	z-index: 10000;
@@ -24,18 +26,18 @@
 }
 
 .links__github {
-	font-size: var(--font-size-medium);
+	font-size: $font-size-medium;
 	opacity: 0.3;
 	transition: 0.2s ease-in-out;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	gap: var(--spacing-medium);
+	gap: $spacing-medium;
 }
 
 .links__github p,
 .links__github a {
-	font-size: var(--font-size-small);
+	font-size: $font-size-small;
 }
 
 .links__container a {

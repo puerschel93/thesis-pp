@@ -1,7 +1,7 @@
-import 'styles/fonts.css';
-import 'styles/global.css';
-import 'styles/reset.css';
-import 'styles/variables.css';
+import 'styles/_fonts.scss';
+import 'styles/_global.scss';
+import 'styles/_reset.scss';
+import 'styles/_variables.scss';
 
 /** Props Interface */
 interface StylesProps {

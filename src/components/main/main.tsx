@@ -1,7 +1,7 @@
 import ColorSwitch from 'components/colorswitch';
 import Heading from 'components/heading';
 import Links from 'components/links';
-import styles from './main.module.css';
+import styles from './main.module.scss';
 
 /**
  * This component is the main entrypoint of the example app.

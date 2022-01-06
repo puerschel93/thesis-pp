@@ -1,6 +1,6 @@
 import ResultHeading from 'components/resultheading';
 import { Section } from 'enums/sections';
-import style from './abstract.module.css';
+import style from './abstract.module.scss';
 
 /**
  * This component is used to display the abstract of the bachelorthesis. It is defined in

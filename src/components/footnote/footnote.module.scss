@@ -1,12 +1,14 @@
+@import 'styles/_variables.scss';
+
 .footnote__container {
 	grid-column-start: 1;
 	grid-column-end: 3;
-	line-height: var(--font-line-height-large);
+	line-height: $font-line-height-large;
 }
 
 .footnote__container ul {
 	padding-left: 0rem;
-	line-height: calc(var(--font-line-height-large) * 2);
+	line-height: calc(#{$font-line-height-large} * 2);
 }
 
 .footnote__container li {
@@ -18,7 +20,7 @@
 }
 
 .footnote__container li:not(:last-child) {
-	border-bottom: 1px solid var(--color-gray-500);
+	border-bottom: 1px solid $color-gray-500;
 }
 
 .footnote__container li:hover {
@@ -31,19 +33,19 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-top: var(--spacing-medium);
+	margin-top: $spacing-medium;
 }
 
 @media screen and (max-width: 768px) {
 	.footnote__container ul {
-		line-height: var(--font-line-height-medium);
+		line-height: $font-line-height-medium;
 	}
 
 	.footnote__container li {
 		flex-direction: column;
 		gap: 0.5rem;
 		opacity: 1;
-		padding-top: var(--spacing-small);
-		padding-bottom: var(--spacing-small);
+		padding-top: $spacing-small;
+		padding-bottom: $spacing-small;
 	}
 }

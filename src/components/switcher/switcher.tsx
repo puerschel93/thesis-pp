@@ -1,4 +1,4 @@
-import styles from './switcher.module.css';
+import styles from './switcher.module.scss';
 
 /** Interface Props */
 interface SwitcherProps {

@@ -1,6 +1,6 @@
 import { useHide } from 'hooks/use-hide';
 import { IoLogoGithub } from 'react-icons/io5';
-import styles from './links.module.css';
+import styles from './links.module.scss';
 
 /**
  * This component provides the links to the repository and the preprocessor
@@ -13,7 +13,7 @@ export const Links = () => {
 
 	/** Functions */
 	const forwardGithub = () => {
-		window.open('https://github.com/puerschel93/thesis-css');
+		window.open('https://github.com/puerschel93/thesis-pp');
 	};
 
 	return (
@@ -27,8 +27,8 @@ export const Links = () => {
 				<IoLogoGithub />
 				<p>Code auf GitHub einsehen</p>
 			</span>
-			<a href="#" target="_blank" rel="noreferrer">
-				zur Sass-Version
+			<a href="https://css.prshl.de" target="_blank" rel="noreferrer">
+				zur CSS-Version
 			</a>
 		</div>
 	);

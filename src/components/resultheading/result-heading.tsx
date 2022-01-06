@@ -1,4 +1,4 @@
-import styles from './result-heading.module.css';
+import styles from './result-heading.module.scss';
 
 interface ResultHeadingProps {
 	title: string;

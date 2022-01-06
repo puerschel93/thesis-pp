@@ -1,5 +1,5 @@
 import ResultHeading from 'components/resultheading';
-import styles from './footnote.module.css';
+import styles from './footnote.module.scss';
 
 export const Footnote = () => {
 	return (
@@ -41,6 +41,18 @@ export const Footnote = () => {
 					Create React App{' '}
 					<a href="https://create-react-app.dev/" target="_blank" rel="noreferrer">
 						www.create-react-app.dev/
+					</a>
+				</li>
+				<li>
+					Sass{' '}
+					<a href="https://www.sass-lang.com/" target="_blank" rel="noreferrer">
+						www.sass-lang.com
+					</a>
+				</li>
+				<li>
+					Sass-Loader{' '}
+					<a href="https://www.npmjs.com/package/sass-loader" target="_blank" rel="noreferrer">
+						www.npmjs.com/package/sass-loader
 					</a>
 				</li>
 			</ul>

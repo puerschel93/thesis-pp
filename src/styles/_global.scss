@@ -1,27 +1,29 @@
+@import './_variables.scss';
+
 * {
 	font-family: 'Roboto', sans-serif;
 	cursor: default;
 }
 
 *::selection {
-	background-color: var(--color-primary);
+	background-color: $color-primary;
 	color: white;
 }
 
 h1 {
-	font-size: var(--font-size-large);
+	font-size: $font-size-large;
 	font-family: 'Integral', serif;
 	white-space: nowrap;
 }
 
 h2 {
-	font-size: var(--font-size-medium);
+	font-size: $font-size-medium;
 	font-family: 'Integral', serif;
 	white-space: nowrap;
 }
 
 h3 {
-	font-size: var(--font-size-small);
+	font-size: $font-size-small;
 	font-family: 'Integral', serif;
 	font-weight: 200;
 	white-space: nowrap;
@@ -30,12 +32,12 @@ h3 {
 hr {
 	width: 100%;
 	border-width: 0.35rem;
-	border-color: var(--color-gray-400);
+	border-color: $color-gray-400;
 	border-style: solid;
 }
 
 a {
-	color: var(--color-primary);
+	color: $color-primary;
 	text-decoration: none;
 	cursor: pointer;
 }

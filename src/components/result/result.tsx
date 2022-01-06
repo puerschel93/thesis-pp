@@ -3,7 +3,7 @@ import ResultHeader from 'components/resultheader';
 import ResultHeading from 'components/resultheading';
 import { Section } from 'enums/sections';
 import { useInView } from 'react-hook-inview';
-import styles from './result.module.css';
+import styles from './result.module.scss';
 
 interface Content {
 	frequence: number | string;
