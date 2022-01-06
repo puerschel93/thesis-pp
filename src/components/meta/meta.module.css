@@ -1,0 +1,15 @@
+.meta__container {
+	width: 100%;
+	text-align: justify;
+}
+
+.meta__container > * {
+	line-height: var(--font-line-height-large);
+}
+
+.meta__warning {
+	color: var(--color-primary);
+	margin-right: 0.5rem;
+	position: relative;
+	top: 0.15em;
+}

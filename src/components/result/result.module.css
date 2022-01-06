@@ -1,0 +1,31 @@
+:root {
+	--result-columns: 1fr 6fr;
+}
+
+.result__container {
+	display: grid;
+	grid-template-columns: var(--result-columns);
+	grid-auto-rows: max-content;
+	width: 100%;
+	grid-column-gap: var(--spacing-huge);
+	opacity: 0.15;
+	transition: 0.5s;
+	filter: blur(5px);
+}
+
+.result__container--inview,
+.result__container:hover {
+	opacity: 1;
+	filter: blur(0px);
+}
+
+.result__percentage {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.result__content {
+	line-height: var(--font-line-height-large);
+	font-weight: 400;
+	text-align: justify;
+}

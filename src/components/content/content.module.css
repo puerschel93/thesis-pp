@@ -1,0 +1,11 @@
+.content__container {
+	display: flex;
+	background-color: white;
+	flex-direction: column;
+	position: absolute;
+	top: calc((100% + var(--spacing-huge)) * 3);
+	left: 0;
+	width: 100%;
+	gap: var(--spacing-huge);
+	padding-bottom: var(--spacing-huge);
+}

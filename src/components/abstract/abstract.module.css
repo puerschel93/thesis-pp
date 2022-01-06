@@ -1,0 +1,10 @@
+.abstract__container {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.abstract__container > * {
+	line-height: var(--font-line-height-large);
+	font-weight: 400;
+	text-align: justify;
+}

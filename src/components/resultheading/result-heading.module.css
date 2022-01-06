@@ -1,0 +1,8 @@
+.result__heading {
+	display: flex;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	gap: var(--spacing-medium);
+	align-items: baseline;
+	min-height: 3rem;
+}

@@ -1,0 +1,14 @@
+.result__header {
+	display: grid;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-column-gap: var(--spacing-huge);
+	grid-template-columns: var(--result-columns);
+	min-height: 2rem;
+	line-height: 100%;
+}
+
+.result__header > * {
+	font-size: var(--font-size-small);
+	color: var(--color-gray-800);
+}
