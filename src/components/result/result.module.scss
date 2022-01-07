@@ -1,60 +1,62 @@
 @import 'styles/_variables.scss';
 
-.result__container {
-	display: grid;
-	grid-template-columns: $result-columns;
-	grid-auto-rows: max-content;
-	width: 100%;
-	grid-column-gap: $spacing-huge;
-	opacity: 0.15;
-	transition: 0.5s;
-	filter: blur(5px);
-}
+.result {
+	&__container {
+		display: grid;
+		grid-template-columns: $result-columns;
+		grid-auto-rows: max-content;
+		width: 100%;
+		grid-column-gap: $spacing-huge;
+		opacity: 0.15;
+		transition: 0.5s;
+		filter: blur(5px);
 
-.result__container--inview,
-.result__container:hover {
-	opacity: 1;
-	filter: blur(0px);
-}
-
-.result__percentage {
-	font-size: 3rem;
-	font-weight: bold;
-}
-
-.result__content {
-	line-height: $font-line-height-large;
-	font-weight: 400;
-	text-align: justify;
-}
-
-.result__percentage--embedded {
-	display: none;
-	grid-column-start: 1;
-	grid-column-end: 3;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-@media screen and (max-width: 768px) {
-	.result__percentage {
-		display: none;
+		&:hover,
+		&--inview {
+			opacity: 1;
+			filter: blur(0px);
+		}
 	}
 
-	.result__percentage--embedded {
-		display: flex;
-		align-items: baseline;
-		margin-bottom: 1rem;
-		color: $color-gray-800;
+	&__percentage {
+		font-size: 3rem;
+		font-weight: bold;
+
+		&--embedded {
+			display: none;
+			grid-column-start: 1;
+			grid-column-end: 3;
+			flex-direction: row;
+			justify-content: space-between;
+
+			@media screen and (max-width: 768px) {
+				display: flex;
+				align-items: baseline;
+				margin-bottom: 1rem;
+				color: $color-gray-800;
+			}
+
+			& h1 {
+				@media screen and (max-width: 768px) {
+					color: black;
+				}
+			}
+		}
+
+		@media screen and (max-width: 768px) {
+			display: none;
+		}
 	}
 
-	.result__percentage--embedded h1 {
-		color: black;
-	}
+	&__content {
+		line-height: $font-line-height-large;
+		font-weight: 400;
+		text-align: justify;
 
-	.result__content {
-		grid-column-start: 1;
-		grid-column-end: 3;
-		text-align: left;
+		@media screen and (max-width: 768px) {
+			grid-column-start: 1;
+			grid-column-end: 3;
+			text-align: left;
+		}
 	}
 }

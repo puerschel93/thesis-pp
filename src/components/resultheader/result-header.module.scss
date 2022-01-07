@@ -8,15 +8,13 @@
 	grid-template-columns: $result-columns;
 	min-height: 2rem;
 	line-height: 100%;
-}
 
-.result__header > * {
-	font-size: $font-size-small;
-	color: $color-gray-800;
-}
+	& > * {
+		font-size: $font-size-small;
+		color: $color-gray-800;
+	}
 
-@media screen and (max-width: 768px) {
-	.result__header {
+	@media screen and (max-width: 768px) {
 		display: none;
 	}
 }

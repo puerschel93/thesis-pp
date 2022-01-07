@@ -3,16 +3,14 @@
 .abstract__container {
 	display: grid;
 	grid-template-columns: 1fr;
-}
 
-.abstract__container > * {
-	line-height: $font-line-height-large;
-	font-weight: 400;
-	text-align: justify;
-}
+	& > * {
+		line-height: $font-line-height-large;
+		font-weight: 400;
+		text-align: justify;
 
-@media screen and (max-width: 768px) {
-	.abstract__container > * {
-		text-align: left;
+		@media screen and (max-width: 768px) {
+			text-align: left;
+		}
 	}
 }

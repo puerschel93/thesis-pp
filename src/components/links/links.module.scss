@@ -1,49 +1,51 @@
 @import 'styles/_variables.scss';
 
-.links__container {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	padding-left: $spacing-large;
-	padding-right: $spacing-large;
-	position: fixed;
-	left: 0;
-	width: 100vw;
-	top: calc(#{$spacing-large} + 1rem);
-	align-items: center;
-	box-sizing: border-box;
-	z-index: 10000;
-	transition: 0.4s;
-}
+.links {
+	&__container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding-left: $spacing-large;
+		padding-right: $spacing-large;
+		position: fixed;
+		left: 0;
+		width: 100vw;
+		top: calc(#{$spacing-large} + 1rem);
+		align-items: center;
+		box-sizing: border-box;
+		z-index: 10000;
+		transition: 0.4s;
 
-.links__container--hidden {
-	opacity: 0;
-	filter: blur(2px);
-}
+		&--hidden {
+			opacity: 0;
+			filter: blur(2px);
+		}
 
-.links__container * {
-	cursor: pointer;
-}
+		& * {
+			cursor: pointer;
+		}
 
-.links__github {
-	font-size: $font-size-medium;
-	opacity: 0.3;
-	transition: 0.2s ease-in-out;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	gap: $spacing-medium;
-}
+		& a {
+			text-align: right;
+		}
+	}
 
-.links__github p,
-.links__github a {
-	font-size: $font-size-small;
-}
+	&__github {
+		font-size: $font-size-medium;
+		opacity: 0.3;
+		transition: 0.2s ease-in-out;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: $spacing-medium;
 
-.links__container a {
-	text-align: right;
-}
+		&:hover {
+			opacity: 1;
+		}
 
-.links__github:hover {
-	opacity: 1;
+		& p,
+		& a {
+			font-size: $font-size-small;
+		}
+	}
 }

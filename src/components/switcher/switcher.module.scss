@@ -7,8 +7,8 @@
 	cursor: not-allowed;
 	transition: 0.23s ease-in-out;
 	filter: grayscale(100%);
-}
 
-.switcher:hover {
-	height: 2rem;
+	&:hover {
+		height: 2rem;
+	}
 }

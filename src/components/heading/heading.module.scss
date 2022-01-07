@@ -1,46 +1,44 @@
 @import 'styles/_variables.scss';
 
-.heading__container {
-	min-width: 50vw;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 1rem;
-	position: relative;
-}
+.heading {
+	&__container {
+		min-width: 50vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 1rem;
+		position: relative;
 
-.heading__subcontainer {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-}
+		@media screen and (max-width: 768px) {
+			min-width: 90vw;
+		}
 
-.heading__lead {
-	position: fixed;
-	display: flex;
-	flex-direction: column;
-	gap: $spacing-medium;
-	transition: 0.4s;
-}
+		@media screen and (max-width: 1000px) {
+			min-width: 75vw;
+		}
+	}
 
-.heading__lead--hidden {
-	opacity: 0;
-	filter: blur(2px);
+	&__subcontainer {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__lead {
+		position: fixed;
+		display: flex;
+		flex-direction: column;
+		gap: $spacing-medium;
+		transition: 0.4s;
+
+		&--hidden {
+			opacity: 0;
+			filter: blur(2px);
+		}
+	}
 }
 
 .lead__main {
 	position: relative;
-}
-
-@media screen and (max-width: 768px) {
-	.heading__container {
-		min-width: 90vw;
-	}
-}
-
-@media screen and (max-width: 1000px) {
-	.heading__container {
-		min-width: 75vw;
-	}
 }

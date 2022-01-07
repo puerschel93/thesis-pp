@@ -1,23 +1,23 @@
 @import 'styles/_variables.scss';
 
-.meta__container {
-	width: 100%;
-	text-align: justify;
-}
+.meta {
+	&__container {
+		width: 100%;
+		text-align: justify;
 
-.meta__container > * {
-	line-height: $font-line-height-large;
-}
+		> * {
+			line-height: $font-line-height-large;
+		}
 
-.meta__warning {
-	color: $color-primary;
-	margin-right: 0.5rem;
-	position: relative;
-	top: 0.15em;
-}
+		@media screen and (max-width: 768px) {
+			text-align: left;
+		}
+	}
 
-@media screen and (max-width: 768px) {
-	.meta__container {
-		text-align: left;
+	&__warning {
+		color: $color-primary;
+		margin-right: 0.5rem;
+		position: relative;
+		top: 0.15em;
 	}
 }
