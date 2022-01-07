@@ -15,7 +15,7 @@ const App = () => {
 	return (
 		<DataContext.Provider value={content}>
 			<Styles>
-				<Title title="Bachelorarbeit - CSS Version" />
+				<Title title="Bachelorarbeit - SASS Version" />
 				<Main />
 			</Styles>
 		</DataContext.Provider>
