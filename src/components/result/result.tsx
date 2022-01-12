@@ -52,7 +52,7 @@ export const Result = (props: ResultProps) => {
 					{typeof data.frequence !== 'string' && '%'}
 				</h1>
 			</p>
-			<p className={styles['result__content']}>{data.content}</p>
+			<p className={styles['result__content']} dangerouslySetInnerHTML={{ __html: data.content }} />
 		</div>
 	);
 };

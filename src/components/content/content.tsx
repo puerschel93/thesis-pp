@@ -14,7 +14,7 @@ export const Content = () => {
 	return (
 		<div className={styles['content__container']}>
 			<Meta />
-			<Abstract />
+			<Abstract section={Section.Abstract} data={data.abstract} />
 			<Result section={Section.Variables} data={data.variablen} />
 			<Result section={Section.Mixins} data={data.mixins} />
 			<Result section={Section.Verschachtelung} data={data.verschachtelung} />
