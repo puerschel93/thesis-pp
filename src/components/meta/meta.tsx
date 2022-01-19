@@ -29,7 +29,7 @@ export const Meta = () => {
 				Ergebnisse wurden aus der Bachelorarbeit entnommen, stellen jedoch <strong>keinen</strong>{' '}
 				eigenständigen Inhalt der Bachelorarbeit dar, weshalb keine Garantie, trotz bester Bemühungen, für die
 				Richtigkeit der auf dieser Seite ersichtlichen Werte gegeben wird. Die vollständige Bachelorarbeit kann
-				bei Bedarf am Seitenende heruntergeladen werden.
+				nach erfolgter Begutachtung auf dieser Seite heruntergeladen werden.
 			</p>
 		</div>
 	);

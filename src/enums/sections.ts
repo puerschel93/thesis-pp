@@ -6,7 +6,7 @@ export enum Section {
 	Variables = 'Variablen',
 	Mixins = 'Mixins',
 	Verschachtelung = 'Verschachtelung',
-	Vererbung = 'Vererbung',
+	Vererbung = 'Erweiterung',
 	Iteration = 'Iteration',
 	BedingteAnweisungen = 'Bedingte Anweisungen',
 	EingebauteFunktionen = 'Eingebaute Funktionen',

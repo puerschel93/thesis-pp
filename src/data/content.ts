@@ -41,11 +41,11 @@ export const content = {
 	vererbung: {
 		frequence: 7.14,
 		content: `
-		Die Vererbungsfunktion in CSS Präprozessoren dient dazu, einen CSS Regelblock um einen bereits bestehenden Block zu erweitern.
+		Die Erweiterungsfunktion in CSS Präprozessoren dient dazu, einen CSS Regelblock um einen bereits bestehenden Block zu erweitern.
 		Wie bereits in Mazinanians und Tsantalis <a href="https://users.encs.concordia.ca/~nikolaos/publications/SANER_2016.pdf#page=8" target="_blank">Studie</a>
-		herausgefunden wurde, tendieren Entwickler*innen zur Erlangung dieses Ziels jedoch eher dazu Mixins zu verwenden. 7.14% aller geprüften Präprozessordateien wurden unter Anwendung von Vererbungsfunktionen geschrieben,
+		herausgefunden wurde, tendieren Entwickler*innen zur Erlangung dieses Ziels jedoch eher dazu Mixins zu verwenden. 7.14% aller geprüften Präprozessordateien wurden unter Anwendung von Erweiterungsfunktion geschrieben,
 		wodurch dieser Funktion eine sehr geringe Häufigkeit zugeschrieben wird. Dennoch gab es in der Vergangenheit einen <a href="https://tabatkins.github.io/specs/css-extend-rule/" target="_blank">Entwurf</a>, welcher darauf
-		abzielte die Vererbungsfunktion in CSS zu implementieren, da davon ausgegangen wurde, dass diese Funktion sehr häufig von Entwickler*innen genutzt wird. Angesichts der dargelegten Zahlen stellt sich dies jedoch als eine
+		abzielte die Erweiterungsfunktion in CSS zu implementieren, da davon ausgegangen wurde, dass diese Funktion sehr häufig von Entwickler*innen genutzt wird. Angesichts der dargelegten Zahlen stellt sich dies jedoch als eine
 		Falschannahme dar.
 		`,
 	},

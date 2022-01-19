@@ -1,3 +1,4 @@
+import FootnoteLink from 'components/footnoteLink';
 import ResultHeading from 'components/resultheading';
 import styles from './footnote.module.scss';
 
@@ -7,54 +8,16 @@ export const Footnote = () => {
 			<ResultHeading title="Hinweise" />
 			<p>Für die Erstellung dieses Projekts wurden folgende Bibliotheken und Tools verwendet:</p>
 			<ul>
-				<li>
-					Firebase{' '}
-					<a href="https://firebase.google.com/" target="_blank" rel="noreferrer">
-						firebase.google.com/
-					</a>
-				</li>
-				<li>
-					React{' '}
-					<a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-						www.reactjs.org/
-					</a>
-				</li>
-				<li>
-					React Router{' '}
-					<a href="https://reactrouter.com/" target="_blank" rel="noreferrer">
-						www.reactrouter.com/
-					</a>
-				</li>
-				<li>
-					React Helmet{' '}
-					<a href="https://github.com/nfl/react-helmet" target="_blank" rel="noreferrer">
-						github.com/nfl/react-helmet
-					</a>
-				</li>
-				<li>
-					React Icons{' '}
-					<a href="https://react-icons.netlify.com/" target="_blank" rel="noreferrer">
-						react-icons.netlify.com/
-					</a>
-				</li>
-				<li>
-					Create React App{' '}
-					<a href="https://create-react-app.dev/" target="_blank" rel="noreferrer">
-						www.create-react-app.dev/
-					</a>
-				</li>
-				<li>
-					Sass{' '}
-					<a href="https://www.sass-lang.com/" target="_blank" rel="noreferrer">
-						www.sass-lang.com
-					</a>
-				</li>
-				<li>
-					Sass-Loader{' '}
-					<a href="https://www.npmjs.com/package/sass-loader" target="_blank" rel="noreferrer">
-						www.npmjs.com/package/sass-loader
-					</a>
-				</li>
+				<FootnoteLink label="Sass-Loader" href="https://www.npmjs.com/package/sass-loader" />
+				<FootnoteLink label="Sass" href="https://www.sass-lang.com" />
+				<FootnoteLink label="Create React App" href="https://create-react-app.dev" />
+				<FootnoteLink label="React" href="https://reactjs.org" />
+				<FootnoteLink label="React Icons" href="https://react-icons.netlify.com" />
+				<FootnoteLink label="React Helmet" href="https://github.com/nfl/react-helmet" />
+				<FootnoteLink label="React Router" href="https://reactrouter.com" />
+				<FootnoteLink label="Firebase" href="https://firebase.google.com" />
+				<FootnoteLink label="Choices.js" href="https://github.com/Choices-js/Choices" />
+				<FootnoteLink label="Moment.js" href="https://momentjs.com" />
 			</ul>
 			<div className={styles.legal}>
 				<p>©{new Date().getFullYear()} by Florian Pürschel</p>

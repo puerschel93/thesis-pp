@@ -1,8 +1,7 @@
 import Main from 'components/main';
 import Title from 'components/title';
 import { content } from 'data/content';
-import { createContext, useEffect } from 'react';
-import Logger from 'synth/logger';
+import { createContext } from 'react';
 import Styles from 'utils/styles';
 
 /** Context */
@@ -13,9 +12,6 @@ export const DataContext = createContext(content);
  * @returns {JSX.Element}
  */
 const App = () => {
-	/** Effects */
-	useEffect(() => Logger.log());
-
 	return (
 		<DataContext.Provider value={content}>
 			<Styles>
